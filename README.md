@@ -2,7 +2,7 @@
 
 A fast, snowy endless runner made for the CLAY Hackathon (Code Like a Yeti) on Sui. A yeti sprints down a mountain, dodges rocks and logs, grabs snowflakes, and tries to stay ahead of the avalanche.
 
-**Play it:** https://tosin737.github.io/lofi-avalanche-run/
+
 
 It runs in any modern browser, on desktop and on phones. No install, no build step, no account.
 
@@ -49,21 +49,6 @@ The Leaderboard tab keeps the top 10 runs on your device. Before a score is acce
 
 The hero in this build is a placeholder yeti called Pip. To use your own character art, open the **Cast** tab and load a PNG with a transparent background. It replaces Pip in the game and in the cast list. The image stays in your browser and is not uploaded anywhere.
 
-## Run it locally
-
-It is a single file. Download `index.html` and open it in a browser.
-
-To serve it from a folder instead, run this in the project folder and open the address it prints:
-
-```
-python -m http.server 8000
-```
-
-## Put it online with GitHub Pages
-
-1. Open the repo's **Settings**, then **Pages**.
-2. Under **Branch**, choose `main` and `/ (root)`, then save.
-3. After a minute or two the game is live at `https://<your-username>.github.io/<repo-name>/`.
 
 ## How it is built
 
@@ -79,4 +64,4 @@ There are no on-chain features yet. Scores and the leaderboard live in the brows
 
 ## Credits
 
-Built for the CLAY Hackathon, with help from Claude. Lofi the Yeti is the hackathon host's character, and the placeholder hero here is an original design.
+Built for the CLAY Hackathon. Lofi the Yeti is the hackathon host's character, and the placeholder hero here is an original design.
